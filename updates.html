@@ -1,0 +1,270 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome! Customize Bootstrap with Sass</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+
+<body>
+    <!-- Start of Navigation bar -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark fixed-top">
+        <div class="container-fluid p-0">
+          <button class="navbar-toggler mx-2 mb-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse rounded-bottom" id="navbarTogglerDemo01">
+            <ul class="navbar-nav m-auto mb-lg-0 bg-primary px-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="guidelines.html" class="nav-link">Guidelines</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/data/Invitation_Card_10th_Convocation_IIITDM_Kancheepuram.pdf" target="_blank">Invitation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/data/graduands.pdf" target="_blank">Graduands</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End of Navigation bar -->
+
+    <div class="container mt-lg-5">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="border border-2 rounded m-2 p-2">
+                            <h5 class="text-center">Updates</h5>
+                            <div class="accordion overflow-auto" id="accordionExample" style="height: 40vh">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Accordion Item #1
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to
+                                            style each element. These classes control the overall appearance, as well as
+                                            the
+                                            showing and hiding via CSS transitions. You can modify any of this with
+                                            custom
+                                            CSS or overriding our default variables. It's also worth noting that just
+                                            about
+                                            any HTML can go within the <code>.accordion-body</code>, though the
+                                            transition
+                                            does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                            Accordion Item #2
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordianExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the second item's accordion body.</strong> It is not shown
+                                            by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to
+                                            style each element. These classes control the overall appearance, as well as
+                                            the
+                                            showing and hiding via CSS transitions. You can modify any of this with
+                                            custom
+                                            CSS or overriding our default variables. It's also worth noting that just
+                                            about
+                                            any HTML can go within the <code>.accordion-body</code>, though the
+                                            transition
+                                            does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            Accordion Item #3
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordianExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the third item's accordion body.</strong> It is not shown by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to
+                                            style each element. These classes control the overall appearance, as well as
+                                            the
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-2 rounded m-2 p-2">
+                            <h5 class="text-center">Parking</h5>
+                            <div class="accordion overflow-auto" id="accordionExample2" style="height: 30vh">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingParkingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseParkingOne" aria-expanded="true"
+                                            aria-controls="collapParkingseOne">
+                                            Accordion Item #1
+                                        </button>
+                                    </h2>
+                                    <div id="collapseParkingOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingParkingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to
+                                            style each element. These classes control the overall appearance, as well as
+                                            the
+                                            showing and hiding via CSS transitions. You can modify any of this with
+                                            custom
+                                            CSS or overriding our default variables. It's also worth noting that just
+                                            about
+                                            any HTML can go within the <code>.accordion-body</code>, though the
+                                            transition
+                                            does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingParkingTwo">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseParkingTwo" aria-expanded="false"
+                                            aria-controls="collapParkingseTwo">
+                                            Accordion Item #2
+                                        </button>
+                                    </h2>
+                                    <div id="collapseParkingTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingParkingTwo" data-bs-parent="#accordianExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the second item's accordion body.</strong> It is not shown
+                                            by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to
+                                            style each element. These classes control the overall appearance, as well as
+                                            the
+                                            showing and hiding via CSS transitions. You can modify any of this with
+                                            custom
+                                            CSS or overriding our default variables. It's also worth noting that just
+                                            about
+                                            any HTML can go within the <code>.accordion-body</code>, though the
+                                            transition
+                                            does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingParkingThree">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseParkingThree" aria-expanded="false"
+                                            aria-controls="collapseParkingThree">
+                                            Accordion Item #3
+                                        </button>
+                                    </h2>
+                                    <div id="collapseParkingThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingParkingThree" data-bs-parent="#accordianExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the third item's accordion body.</strong> It is not shown by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to
+                                            style each element. These classes control the overall appearance, as well as
+                                            the
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="border border-2 rounded m-2 p-2">
+                            Information for
+                            <select id="info-meant-for">
+                                <option value="press">Press</option>
+                                <option value="students">Students</option>
+                                <option value="parents">Parents</option>
+                            </select>
+                            <hr>
+                            <p>Ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget nunc eget nunc
+                                tincidunt euismod. Nullam eget nunc eget nunc tincidunt euismod. Nullam eget nunc
+                                eget nunc tincidunt euismod. Nullam eget nunc eget nunc tincidunt euismod. Nullam eget
+                                nunc eget nunc tincidunt euismod. Nullam eget nunc eget nunc tincidunt euismod. Nullam
+                                eget nunc eget nunc tincidunt euismod. Nullam eget nunc eget nunc tincidunt euismod.
+                                Nullam eget nunc eget nunc tincidunt euismod. Nullam eget nunc eget nunc tincidunt
+                                euismod. Nullam eget nunc eget nunc tincidunt euismod. Nullam eget nunc eget nunc
+                                tincidunt euismod. Nullam eget nunc eget nunc tincidunt euismod. Nullam eget nunc
+                                eget nunc tincidunt euismod. Nullam eget nunc eget nunc tincidunt euismod. Nullam eget
+                                nunc eget nunc tincidunt euismod. Nullam eget nunc eget nunc tincidunt euismod. Nullam
+                                eget nunc eget nunc tincidunt euismod. Nullam eget nunc eget nunc tincidunt euismod.
+                                Nullam eget nunc eget nunc tincidunt euismod. Nullam eget nunc eget nunc tincidunt
+                                euismod. Nullam eget nunc eget nunc tincidunt euismod. Nullam eget nunc eget nunc
+                                tincidunt euismod. Nullam eget nunc e</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer mt-auto py-2 .d-sm-none .d-md-block bg-primary text-bg-primary">
+        <div class="d-flex justify-content-between align-items-center px-3" style="height: 50px">
+            <!-- Footer row -->
+            <div>
+                <a href="https://www.facebook.com/iiitdmk/">
+                    <i class="fa-brands fa-lg fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/iiitdm_official/">
+                    <i class="fa-brands fa-lg fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/iiitdm_official">
+                    <i class="fa-brands fa-lg fa-twitter"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UC-lHJZR3Gqxm24_v9FnMVkw">
+                    <i class="fa-brands fa-lg fa-youtube"></i>
+                </a>
+            </div>
+            <div>
+                &copy; Made by <a href="http://www.cse.iiitdm.ac.in/csclub">CS Club</a> for IIITDMK
+            </div>
+            <div>
+                <a href="#">
+                    <i class="fa fa-lg fa-angle-up"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js.map"></script>
+</body>
+
+</html>

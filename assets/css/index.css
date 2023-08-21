@@ -1,0 +1,313 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+:root {
+  --primary-color: #214b8c;
+  --secondary-color: #fff;
+}
+
+section.text_section {
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+h6 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: text-decoration 0.3s ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+  color: inherit;
+}
+
+/* li {
+  list-style: none;
+} */
+
+/* Navigation bar */
+nav {
+  height: 50px;
+  /* background-color: var(--primary-color);
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5; */
+}
+/* nav > div {
+  width: 100%;
+  height: 100%;
+}
+ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+li a {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+} */
+
+/* -------------HOME PAGE-------------- */
+
+/* Carouel */
+#carouselExampleCaptions,
+.carousel-inner,
+.carousel-item,
+.carousel-inner .carousel-item img {
+  height: 100vh;
+}
+
+/* About us */
+.about-us {
+  /* margin: 100px 0; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 100px;
+}
+.about-us .visual {
+  height: 350px;
+  width: 40%;
+  background-color: gray;
+}
+.about-us .description {
+  width: 40%;
+}
+
+/* Guests and Speech */
+.guests-and-speech {
+  display: flex;
+  flex-direction: column;
+  /* gap: 50px; */
+  align-items: center;
+}
+.guest-speech {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+  max-width: 1200px;
+}
+.guest {
+  height: 200px;
+  min-width: 200px;
+  background-color: gray;
+  /* background: url('https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg'); */
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.guest-speech .speech {
+  width: 60%;
+}
+
+/* Venue */
+
+.venue h2,
+.venue p {
+  text-align: center;
+}
+.venue .map iframe {
+  width: 100%;
+  /* margin: 50px 0; */
+}
+
+/* Graduants */
+.graduant-section {
+  margin: 100px 0;
+}
+.graduant-section h2 {
+  text-align: center;
+}
+.graduants {
+  margin: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+.graduants .graduant-card {
+  background-color: rgba(128, 128, 128, 0.16);
+  border-radius: 16px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  gap: 20px;
+}
+.graduants .graduant-card .photo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: gray;
+}
+/* .graduants .graduant-card .description {
+} */
+.graduants .graduant-card .description p {
+  margin: 0;
+}
+.graduants .graduant-card .description p:first-of-type {
+  font-size: 18px;
+}
+
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-facebook-f:before {
+  content: "\f39e";
+}
+.fa-facebook-messenger:before {
+  content: "\f39f";
+}
+.fa-facebook-square:before {
+  content: "\f082";
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  h6 {
+    font-size: 0.8rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+
+  /* About us */
+  .about-us {
+    /* margin: 50px 0; */
+    padding: 20px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .about-us .visual {
+    height: 300px;
+    width: 100%;
+  }
+  .about-us .description {
+    width: 100%;
+  }
+  .about-us h2 {
+    font-size: 48px;
+  }
+
+  /* Guests and Speech */
+  .guests-and-speech {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+  }
+  .guests-and-speech h2 {
+    text-align: center;
+    font-size: 48px;
+  }
+  .guests-and-speech .reverse {
+    flex-direction: column-reverse;
+  }
+  .guest-speech {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* gap: 30px; */
+    max-width: 1200px;
+  }
+  .guest-speech .guest {
+    height: 200px;
+    min-width: 200px;
+    border-radius: 50%;
+    background-color: gray;
+    /* background: url('https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg'); */
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  .guest-speech .speech {
+    width: 100%;
+  }
+
+  .venue h2 {
+    font-size: 48px;
+  }
+  .venue h2,
+  .venue p {
+    padding: 0 20px;
+  }
+
+  .graduant-section h2 {
+    font-size: 48px;
+  }
+  .graduant-section .graduants {
+    gap: 30px;
+  }
+}
+
+.bg-gradient-4 {
+  background: #007991;
+  background: -webkit-linear-gradient(to right, #007991, #78ffd6);
+  background: linear-gradient(to right, #007991, #78ffd6);
+}
+
+.bg-gradient-3 {
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
